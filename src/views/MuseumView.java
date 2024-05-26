@@ -17,7 +17,7 @@ public class MuseumView extends JFrame {
         setLocationRelativeTo(null);
         setContentPane(mainPanel);
         setVisible(true);
-        setSize(800, 600);
+        setSize(498, 298);
     }
 
     public void setAddButtonListener(ActionListener actionListener) {

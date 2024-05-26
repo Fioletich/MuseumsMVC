@@ -33,9 +33,12 @@ public class MuseumController {
         museumView.setClosingTimeTextField("");
         museumView.setAddressTextField("");
         museumView.setTicketPriceTextField("");
+
+        finderController.setMuseumsModels(museumModels);
     }
 
     private void FindMuseumAction(ActionEvent actionEvent) {
-
+        finderController.createWindow();
+        finderController.setMuseumsModels(museumModels);
     }
 }
